@@ -1,34 +1,27 @@
-## 🔓 Encode python 🔑
+# Encode Python
 
-Telegram: [https://t.me/DecryptSP](https://t.me/DecryptSP)
+### Python encoding utility for Termux
 
-### `—◉ 👾 EXECUTE EN TERMUX 👾` 
-- TYPE THE FOLLOWING COMMANDS ONE BY ONE:
+A small command-line utility for experimenting with Python source-code encoding and transformation.
+
+## Requirements
+
+- Termux
+- Python 3
+- Git
+
+## Run
+
 ```bash
-cd && termux-setup-storage
-```
-```bash
-apt-get update -y && apt-get upgrade -y
-```
-```bash
-pkg install python
-```
-```bash
-pkg install git
-```
-```bash
-pkg install python-pip
-```
-```bash
-git clone https://github.com/CHICO-CP/Encode-python.git
-```
-```bash
-cd Encode-python 
-```
-```bash
+pkg update
+pkg install python git
+git clone https://github.com/Gh0stDeveloper/Encode-python.git
+cd Encode-python
 python encode.py
 ```
 
+Encoding or obfuscation is not a substitute for secure key storage or server-side authorization. Review transformed files before executing them.
 
-# Developer 
-<a href="https://github.com/CHICO-CP"><img src="https://github.com/CHICO-CP.png" width="120" height="120" alt="CHICO-CP"/></a>
+---
+
+**A lightweight Python encoding experiment.**
